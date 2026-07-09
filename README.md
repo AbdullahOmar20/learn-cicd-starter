@@ -1,4 +1,4 @@
-![https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE>/badge.svg](IMAGE_URL)
+![https://github.com/AbdullahOmar20/learn-cicd-starter/actions/workflows/ci.yml/badge.svg](IMAGE_URL)
 
 # learn-cicd-starter (Notely)
 

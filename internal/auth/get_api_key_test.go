@@ -30,7 +30,7 @@ func TestGetApiKey(t *testing.T){
 				res: "",
 				err: errors.New("malformed authorization header"),
 			},},
-		"Malformed ApiKey prefix": {input: http.Header{"Authorization": []string{"ApiKey dkd"}}, 
+		"Malformed ApiKey prefix": {input: http.Header{"Authorization": []string{"apiKey dkd"}}, 
 			want: struct{
 				res string 
 				err error

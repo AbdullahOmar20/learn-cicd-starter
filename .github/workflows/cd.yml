@@ -32,6 +32,5 @@ jobs:
             - name: Use gcloud CLI
               run: 'gcloud info'
             - name: Build docker image and push
-              run: gcloud builds submit --service-account="projects/rich-tine-502208-d5/serviceAccounts/cloud-run-deployer@rich-tine-502208-d5.iam.gserviceaccount.com" --tag us-central1-docker.pkg.dev/rich-tine-502208-d5/notely-ar-repo/issacnetero/notely:latest .
-
+              run: gcloud builds submit --service-account="projects/rich-tine-502208-d5/serviceAccounts/cloud-run-deployer@rich-tine-502208-d5.iam.gserviceaccount.com" --default-buckets-behavior=regional-user-owned-bucket --tag us-central1-docker.pkg.dev/rich-tine-502208-d5/notely-ar-repo/issacnetero/notely:latest .
     
